@@ -8,10 +8,10 @@ def percentage(part,whole):
 
 #Api credentials and authentication    
 
-apikey = "7DyJ2qjJqrhPk9r0CaZYip5JD"
-apisecretkey = "jhFfhx4HhXyiwi3MCf46gOoQpui7nxZjTd9wcWdAfBLrt4LTV1" 
-accesstoken = "1273180812645732352-Q03pqrSSbWgKPGdcHCcn9m1x697Z85"
-accesstokensecret = "kf38lVFGLzItZ1fn6FUTQgkgYFiBOqx5NmqAe3MknXGc3"
+apikey = ""
+apisecretkey = "" 
+accesstoken = ""
+accesstokensecret = ""
 
 auth = tweepy.OAuthHandler(consumer_key=apikey, consumer_secret=apisecretkey)
 auth.set_access_token(accesstoken,accesstokensecret)
